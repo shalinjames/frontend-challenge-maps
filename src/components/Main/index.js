@@ -4,6 +4,7 @@ import './Main.css';
 
 import { SearchRestaurants } from '../../webapi/yelp'
 import Map from '../Map/Map';
+import BusinessCard from "../BusinessCard/BusinessCard";
 
 
 class Main extends React.Component {
@@ -31,28 +32,7 @@ class Main extends React.Component {
 		return (
 			<main>
 				<Map />
-				{this.state.businesses.map(business => {
-					return (
-						<div className="card" key={business.id}>
-							<img src={business.image_url} alt={business.name} />
-							<div className="container">
-								<h4><a href={business.url}>{business.name}</a></h4>
-								{
-									business.location &&
-									business.location.display_address &&
-									(
-										<p>
-											{business.location.display_address[0]}
-											<br />
-											{business.location.display_address[1]}
-										</p>
-									)
-								}
-								<p>{business.display_phone}</p>
-							</div>
-						</div>
-					)
-				})}
+				{this.state.businesses.map(business => <BusinessCard business={business} />)}
 			</main>
 		);
 	}

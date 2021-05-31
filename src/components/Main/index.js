@@ -2,8 +2,10 @@ import React from 'react';
 
 import './Main.css';
 
+import { SearchRestaurants } from '../../webapi/yelp'
+
 const COORDS = {
-	'Europe/Berlin': {lat: 52.518611, lng: 13.408333}
+	'Europe/Berlin': { lat: 52.518611, lng: 13.408333 }
 }
 
 class Main extends React.Component {
@@ -16,7 +18,7 @@ class Main extends React.Component {
 
 	componentDidMount() {
 		this.fetchRestaurants()
-			.then(res => this.setState({ businesses: res.businesses || [] }))
+			.then(res => this.setState({ businesses: res || [] }))
 			.catch(err => console.log(err));
 
 		this.mapsApiLoaded = window.setTimeout(this.checkMapsApi.bind(this), 200);
@@ -29,13 +31,7 @@ class Main extends React.Component {
 			term: "restaurants"
 		}
 		const urlParams = new URLSearchParams(query);
-		const response = await fetch(`/-/search?${urlParams}`);
-		const body = await response.json();
-
-		if (response.status !== 200) {
-			throw Error(body.message);
-		}
-		return body;
+		return SearchRestaurants(urlParams)
 	}
 
 	checkMapsApi() {
@@ -51,7 +47,7 @@ class Main extends React.Component {
 			this.mapInstance = new window.google.maps.Map(mapEl, {
 				center: COORDS['Europe/Berlin'],
 				zoom: 8
-			  });
+			});
 		}
 	}
 

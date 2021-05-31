@@ -1,0 +1,2073 @@
+{
+    "businesses": [
+        {
+            "id": "8uBE9ZgfZOM2z_Rllw478Q",
+            "alias": "stadtklause-berlin",
+            "name": "Stadtklause",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/vqFLzToYyFfAoYKlBRq0jA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/stadtklause-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 172,
+            "categories": [
+                {
+                    "alias": "german",
+                    "title": "German"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.504779,
+                "longitude": 13.380618
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Bernburger Str. 35",
+                "address2": "",
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10963",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Bernburger Str. 35",
+                    "10963 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493051056381",
+            "display_phone": "+49 30 51056381",
+            "distance": 2205.244050414826
+        },
+        {
+            "id": "6BCLgz8j6j2em7XLLsXoow",
+            "alias": "lorenz-adlon-esszimmer-berlin",
+            "name": "Lorenz Adlon Esszimmer",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8NRTmzoPTNXUC0I4QApzBA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lorenz-adlon-esszimmer-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 67,
+            "categories": [
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 52.516109,
+                "longitude": 13.380014
+            },
+            "transactions": [],
+            "price": "€€€€",
+            "location": {
+                "address1": "Unter den Linden 77",
+                "address2": "",
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Unter den Linden 77",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493022611960",
+            "display_phone": "+49 30 22611960",
+            "distance": 1011.670058812342
+        },
+        {
+            "id": "jIddBhydYQEOECaa199Hag",
+            "alias": "cocolo-ramen-berlin",
+            "name": "Cocolo Ramen",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/F32khCZAnrKmR73ILedcag/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cocolo-ramen-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 293,
+            "categories": [
+                {
+                    "alias": "ramen",
+                    "title": "Ramen"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.52718,
+                "longitude": 13.39934
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Gipsstr. 3",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10119",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Gipsstr. 3",
+                    "10119 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493098339073",
+            "display_phone": "+49 30 98339073",
+            "distance": 1612.2813770372095
+        },
+        {
+            "id": "yAhYpg2GGeEUV2Li7HOp8g",
+            "alias": "momotaro-tavern-berlin",
+            "name": "Momotaro Tavern",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_dlFHwDjxj6jcSHMj7y6Ig/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/momotaro-tavern-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 58,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "asianfusion",
+                    "title": "Asian Fusion"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.521213,
+                "longitude": 13.4096765920655
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Panoramastr. 1 A",
+                "address2": null,
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10178",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Panoramastr. 1 A",
+                    "10178 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4915203708888",
+            "display_phone": "+49 1520 3708888",
+            "distance": 2315.5159976568266
+        },
+        {
+            "id": "zoV7ywdHBys01E2ndtzZ3Q",
+            "alias": "cana-restaurant-berlin",
+            "name": "Cana Restaurant",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ewdQ0VvdWyqaebfDDcWcfw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cana-restaurant-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 49,
+            "categories": [
+                {
+                    "alias": "arabian",
+                    "title": "Arabian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.5122795127759,
+                "longitude": 13.4088950945122
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Neue Roßstr. 11 - 12",
+                "address2": null,
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10179",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Neue Roßstr. 11 - 12",
+                    "10179 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493024083280",
+            "display_phone": "+49 30 24083280",
+            "distance": 2610.3392219279554
+        },
+        {
+            "id": "UzXq4QuasWnooTzHQlsMJg",
+            "alias": "muse-berlin-2",
+            "name": "Muse",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/anSTinXY54UJL_53RJr_yA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/muse-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 60,
+            "categories": [
+                {
+                    "alias": "international",
+                    "title": "International"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.53299,
+                "longitude": 13.42322
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Immanuelkirchstr. 31",
+                "address2": null,
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10405",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Immanuelkirchstr. 31",
+                    "10405 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493040056289",
+            "display_phone": "+49 30 40056289",
+            "distance": 3352.0209794086654
+        },
+        {
+            "id": "KP_8I0zN9s50fWWf-S6mgg",
+            "alias": "burgermeister-berlin",
+            "name": "Burgermeister",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/RSrEDSElpZrCCae6HN9Byg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/burgermeister-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 715,
+            "categories": [
+                {
+                    "alias": "hotdogs",
+                    "title": "Fast Food"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.5011,
+                "longitude": 13.442463
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Oberbaumstr. 8",
+                "address2": "",
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10997",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Oberbaumstr. 8",
+                    "10997 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493023883840",
+            "display_phone": "+49 30 23883840",
+            "distance": 5198.937930223258
+        },
+        {
+            "id": "yqX-QbXxw3BCoBgnaqrOqw",
+            "alias": "lecker-song-berlin",
+            "name": "Lecker Song",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/X6xLrYnecti_GviL-GPzQQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lecker-song-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 77,
+            "categories": [
+                {
+                    "alias": "dimsum",
+                    "title": "Dim Sum"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.544112,
+                "longitude": 13.420731
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Schliemannstr. 19",
+                "address2": null,
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10437",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Schliemannstr. 19",
+                    "10437 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493026374447",
+            "display_phone": "+49 30 26374447",
+            "distance": 3744.1480658188448
+        },
+        {
+            "id": "6xWLh3tMHxwg3o9uSkpF0g",
+            "alias": "muckrakers-pizza-berlin",
+            "name": "Muckrakers Pizza",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Be5u7xs8z5mXPNxKUEui1A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/muckrakers-pizza-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 15,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.522359,
+                "longitude": 13.384006
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Marienstr. 18",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Marienstr. 18",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493085612456",
+            "display_phone": "+49 30 85612456",
+            "distance": 598.9572473865429
+        },
+        {
+            "id": "1EQUHShNgesuKm-5LEfaeg",
+            "alias": "ammamma-berlin",
+            "name": "AmmAmma",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/f2SX6SFPBlolDUOrVr2jZQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ammamma-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 138,
+            "categories": [
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.49198,
+                "longitude": 13.41188
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Urbanstr. 28 a",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10967",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Urbanstr. 28 a",
+                    "10967 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493074073516",
+            "display_phone": "+49 30 74073516",
+            "distance": 4357.7835202157885
+        },
+        {
+            "id": "OACJ6kJYAorqcI0_FfeSZg",
+            "alias": "southern-vittles-berlin-2",
+            "name": "Southern Vittles",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/M4sNENVvs4PRXLM_zSmwxQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/southern-vittles-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 10,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.54142,
+                "longitude": 13.41526
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Lychener Str. 6",
+                "address2": "",
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10437",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Lychener Str. 6",
+                    "10437 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4915229420749",
+            "display_phone": "+49 1522 9420749",
+            "distance": 3268.3678423708984
+        },
+        {
+            "id": "dXiRPNAnhCMOykD53SFsXQ",
+            "alias": "aigner-gendarmenmarkt-berlin-2",
+            "name": "Aigner Gendarmenmarkt",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/JgzUuR03QiOzLXBCafYOPQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/aigner-gendarmenmarkt-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 120,
+            "categories": [
+                {
+                    "alias": "german",
+                    "title": "German"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.5146991,
+                "longitude": 13.3907825
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Französischestr. 25",
+                "address2": null,
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Französischestr. 25",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4930203751850",
+            "display_phone": "+49 30 203751850",
+            "distance": 1477.6131229937992
+        },
+        {
+            "id": "ZTdPX0iOUSjHU3_2jRrYeQ",
+            "alias": "joseph-berlin-4",
+            "name": "JOSEPH",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/IhQuMKXWEeSjf3RMde6thg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/joseph-berlin-4?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "israeli",
+                    "title": "Israeli"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.525941,
+                "longitude": 13.387679
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Friedrichstr. 113",
+                "address2": null,
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Friedrichstr. 113",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4930314950700",
+            "display_phone": "+49 30 314950700",
+            "distance": 818.1424669456077
+        },
+        {
+            "id": "Eobze0Xon9szj_2nj7BrUQ",
+            "alias": "factory-girl-berlin-2",
+            "name": "FACTORY GIRL",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/16AG2eLNew5bbAcoSNSkFQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/factory-girl-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 262,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.527302,
+                "longitude": 13.398852
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Auguststr. 29 C",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10119",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Auguststr. 29 C",
+                    "10119 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493045950405",
+            "display_phone": "+49 30 45950405",
+            "distance": 1588.9623906143374
+        },
+        {
+            "id": "7EsX1wNmWwAdYNXwurVtxA",
+            "alias": "da-jia-le-berlin-3",
+            "name": "Da Jia Le",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/OU3jrZ6ZpJ__u5FjzW2J3Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/da-jia-le-berlin-3?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 62,
+            "categories": [
+                {
+                    "alias": "chinese",
+                    "title": "Chinese"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.49421,
+                "longitude": 13.36378
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Goebenstr. 23",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10783",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Goebenstr. 23",
+                    "10783 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493021459745",
+            "display_phone": "+49 30 21459745",
+            "distance": 3454.808763708114
+        },
+        {
+            "id": "FqjkhdhJIpxAVFGfytu73A",
+            "alias": "hirsch-und-hase-berlin",
+            "name": "Hirsch & Hase",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/P66ZUiTnc4s2DIRv-BznJA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/hirsch-und-hase-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "scottish",
+                    "title": "Scottish"
+                },
+                {
+                    "alias": "beergarden",
+                    "title": "Beer Garden"
+                },
+                {
+                    "alias": "tapasmallplates",
+                    "title": "Tapas/Small Plates"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 52.542081,
+                "longitude": 13.393723
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Brunnenstr. 73",
+                "address2": null,
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "13355",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Brunnenstr. 73",
+                    "13355 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4917631322073",
+            "display_phone": "+49 176 31322073",
+            "distance": 2281.968223179457
+        },
+        {
+            "id": "cq-jjm28Xv8oNVEZLQ5N-g",
+            "alias": "yarok-berlin",
+            "name": "Yarok",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/8oXTW1WSb8KhwUBz5TnZAg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/yarok-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 169,
+            "categories": [
+                {
+                    "alias": "syrian",
+                    "title": "Syrian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.5283244,
+                "longitude": 13.3920916
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Torstr. 195",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10115",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Torstr. 195",
+                    "10115 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493095628703",
+            "display_phone": "+49 30 95628703",
+            "distance": 1182.0239454983403
+        },
+        {
+            "id": "Uv0i4nrfjgUVJenHbcxlyA",
+            "alias": "dolcini-berlin",
+            "name": "Dolcini",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/A1DRy12bMhUW0rFYmnjzBw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dolcini-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 34,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.51384,
+                "longitude": 13.38688
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Jägerstr. 70",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Jägerstr. 70",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493024630456",
+            "display_phone": "+49 30 24630456",
+            "distance": 1378.432867680872
+        },
+        {
+            "id": "hQ-fr8MvEV5RtJlezni1Pg",
+            "alias": "la-buvette-steakhouse-berlin-8",
+            "name": "LA BUVETTE Steakhouse",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/mua7kYG0DujM-tpwuOgtUg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-buvette-steakhouse-berlin-8?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 88,
+            "categories": [
+                {
+                    "alias": "french",
+                    "title": "French"
+                },
+                {
+                    "alias": "brasseries",
+                    "title": "Brasseries"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.53113129,
+                "longitude": 13.38205394
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Chausseestr. 110",
+                "address2": null,
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10115",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Chausseestr. 110",
+                    "10115 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493094405363",
+            "display_phone": "+49 30 94405363",
+            "distance": 858.1386399721341
+        },
+        {
+            "id": "3jR9kN7g6vW1WuPBUe9bZg",
+            "alias": "yam-yam-berlin-2",
+            "name": "Yam Yam",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Szek3I71cXRJWrw4zTSCAg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/yam-yam-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 266,
+            "categories": [
+                {
+                    "alias": "korean",
+                    "title": "Korean"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.5275688928154,
+                "longitude": 13.4082897611297
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Alte Schönhauser Str. 6",
+                "address2": null,
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10119",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Alte Schönhauser Str. 6",
+                    "10119 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493024632485",
+            "display_phone": "+49 30 24632485",
+            "distance": 2222.424074744964
+        },
+        {
+            "id": "zoqrQLulC-weIVB83OIc4Q",
+            "alias": "elefant-berlin",
+            "name": "Elefant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/D6-sJ4_5N0XzQEx9tSgxVA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/elefant-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 159,
+            "categories": [
+                {
+                    "alias": "german",
+                    "title": "German"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.4989484,
+                "longitude": 13.3453693
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Fuggerstr. 18",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10777",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Fuggerstr. 18",
+                    "10777 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493023607346",
+            "display_phone": "+49 30 23607346",
+            "distance": 3502.052178173731
+        },
+        {
+            "id": "Ul_fxm7Rg-QSsWGPg3xclA",
+            "alias": "ammamma-berlin-2",
+            "name": "ammAmma",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/pey7X0RSTUIMQCM85aq6bw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ammamma-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 61,
+            "categories": [
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.4850306,
+                "longitude": 13.3522505
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Eisenacher Str. 59",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10823",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Eisenacher Str. 59",
+                    "10823 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493078718485",
+            "display_phone": "+49 30 78718485",
+            "distance": 4659.9000636300425
+        },
+        {
+            "id": "UtXUOUPGFyGAwWyEH3sCng",
+            "alias": "takumi9-sapporo-berlin",
+            "name": "Takumi'9 Sapporo",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/21NdIExvts8sqqShpgeNYA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/takumi9-sapporo-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 38,
+            "categories": [
+                {
+                    "alias": "ramen",
+                    "title": "Ramen"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.52903,
+                "longitude": 13.38472
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Chausseestr. 124",
+                "address2": "",
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10115",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Chausseestr. 124",
+                    "10115 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 794.5626986632531
+        },
+        {
+            "id": "_n0Awcf8FFjXBJaCgXXROw",
+            "alias": "café-bondi-berlin-2",
+            "name": "Café Bondi",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/T-sLeBvMahYCoumsa9Jh8Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/caf%C3%A9-bondi-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 109,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.53034261696,
+                "longitude": 13.38763160899
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Eichendorffstr. 6",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10115",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Eichendorffstr. 6",
+                    "10115 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 1035.2026097377952
+        },
+        {
+            "id": "CPjSn7dFNcC10VhHa9sqZA",
+            "alias": "steel-vintage-bikes-café-berlin-3",
+            "name": "Steel Vintage Bikes Café",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/oXep6cP4LJ60YrxP9iV5ew/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/steel-vintage-bikes-caf%C3%A9-berlin-3?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 73,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "bikes",
+                    "title": "Bikes"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.51254,
+                "longitude": 13.38211
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Wilhelmstr. 91",
+                "address2": "",
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Wilhelmstr. 91",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493020623877",
+            "display_phone": "+49 30 20623877",
+            "distance": 1384.844689975583
+        },
+        {
+            "id": "BEtU3mWiEfNR8ycNCENdvg",
+            "alias": "der-fischladen-berlin",
+            "name": "Der Fischladen",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Vm851-q99wFv61hDk6wWRQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/der-fischladen-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 116,
+            "categories": [
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "fishmonger",
+                    "title": "Fishmonger"
+                },
+                {
+                    "alias": "fishnchips",
+                    "title": "Fish & Chips"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.54599,
+                "longitude": 13.4125599
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Schönhauser Allee 128",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10437",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Schönhauser Allee 128",
+                    "10437 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493040005612",
+            "display_phone": "+49 30 40005612",
+            "distance": 3467.443295934832
+        },
+        {
+            "id": "0kbsEXLJEdqCwSws7BRqXg",
+            "alias": "taste-berlin-2",
+            "name": "Taste",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9qOIdfkbzQ_ujrsH-DVmhg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taste-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 9,
+            "categories": [
+                {
+                    "alias": "singaporean",
+                    "title": "Singaporean"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.52411,
+                "longitude": 13.32896
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Alt-Moabit 54",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10555",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Alt-Moabit 54",
+                    "10555 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4917672971948",
+            "display_phone": "+49 176 72971948",
+            "distance": 3171.3641056350543
+        },
+        {
+            "id": "vWnOzHkdNBxnVGe-Vbbjyw",
+            "alias": "udagawa-berlin-5",
+            "name": "Udagawa",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/OmLyM1RheNoqOi-RgO5Rsg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/udagawa-berlin-5?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 53,
+            "categories": [
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.50634,
+                "longitude": 13.30962
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Kantstr. 118",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10625",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Kantstr. 118",
+                    "10625 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+49303123014",
+            "display_phone": "+49 30 3123014",
+            "distance": 4925.257096880612
+        },
+        {
+            "id": "gpJiSuJ7fFejl1mBXIA_mg",
+            "alias": "maria-bonita-berlin-3",
+            "name": "Maria Bonita",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/HqmI_O4HK3MJLGfErAbOEQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/maria-bonita-berlin-3?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 185,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.54039,
+                "longitude": 13.41811
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Danziger Str. 33",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10435",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Danziger Str. 33",
+                    "10435 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 3369.257528985182
+        },
+        {
+            "id": "HAn6q1OD7AMbxJMqqmDOsQ",
+            "alias": "salt-n-bone-berlin-2",
+            "name": "Salt n Bone",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/uRLWAKXUI05HB-n1ownSFQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/salt-n-bone-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 39,
+            "categories": [
+                {
+                    "alias": "gastropubs",
+                    "title": "Gastropubs"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.54409,
+                "longitude": 13.419856
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Schliemannstr. 31",
+                "address2": null,
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10437",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Schliemannstr. 31",
+                    "10437 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493091448885",
+            "display_phone": "+49 30 91448885",
+            "distance": 3697.01082810725
+        },
+        {
+            "id": "JtIJESqexMTtznNchqaG0g",
+            "alias": "mezem-berlin",
+            "name": "Mezem",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mlBOeFG8EodlG1_9bRN3Eg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mezem-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 40,
+            "categories": [
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 52.50629,
+                "longitude": 13.311274
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Kantstr. 124",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10625",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Kantstr. 124",
+                    "10625 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4917683220425",
+            "display_phone": "+49 176 83220425",
+            "distance": 4811.574286216521
+        },
+        {
+            "id": "MqiobbxpvGTciQk75G9u2w",
+            "alias": "rausch-schokoladenhaus-berlin-2",
+            "name": "Rausch Schokoladenhaus",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/eYrjJ1s8KXHeB1rR2ROSzg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rausch-schokoladenhaus-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 311,
+            "categories": [
+                {
+                    "alias": "chocolate",
+                    "title": "Chocolatiers & Shops"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.51199,
+                "longitude": 13.3913499
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Charlottenstr. 60",
+                "address2": null,
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Charlottenstr. 60",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4930757880",
+            "display_phone": "+49 30 757880",
+            "distance": 1719.063263067461
+        },
+        {
+            "id": "zoGKin7W8L3uyXeXlvc5gg",
+            "alias": "schnitzelei-mitte-berlin",
+            "name": "Schnitzelei Mitte",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-xVaR6uTzjpCaap387u0-g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/schnitzelei-mitte-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 48,
+            "categories": [
+                {
+                    "alias": "schnitzel",
+                    "title": "Schnitzel"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.528464,
+                "longitude": 13.387325
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Chausseestr. 8",
+                "address2": "",
+                "address3": "Hinterhof",
+                "city": "Berlin",
+                "zip_code": "10115",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Chausseestr. 8",
+                    "Hinterhof",
+                    "10115 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493032519422",
+            "display_phone": "+49 30 32519422",
+            "distance": 898.0743506015705
+        },
+        {
+            "id": "-85Vif3rqVLHRMOBR-qNSA",
+            "alias": "shiso-burger-berlin",
+            "name": "Shiso Burger",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/1Pzv5lC_T5x51O5k8AgPqQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/shiso-burger-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 297,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.52723,
+                "longitude": 13.39883
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Auguststr. 29 c",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10119",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Auguststr. 29 c",
+                    "10119 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493088944687",
+            "display_phone": "+49 30 88944687",
+            "distance": 1583.240627680965
+        },
+        {
+            "id": "-x0xurlF6rBjQtto7JU-bg",
+            "alias": "acht-und-dreissig-berlin",
+            "name": "acht&dreissig",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/HYB3KUOdPKlyC8Ibgti2TA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/acht-und-dreissig-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 23,
+            "categories": [
+                {
+                    "alias": "german",
+                    "title": "German"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.525488,
+                "longitude": 13.39151
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Oranienburger Str. 38",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Oranienburger Str. 38",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493037465031",
+            "display_phone": "+49 30 37465031",
+            "distance": 1066.0464936548929
+        },
+        {
+            "id": "SugGVcQTeL-7Rx0fZgyrgw",
+            "alias": "taquería-tacabrón-berlin",
+            "name": "Taquería Ta'Cabrón",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/mGOfwdE9qxRWAwS11L6AOg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taquer%C3%ADa-tacabr%C3%B3n-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 145,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "divebars",
+                    "title": "Dive Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.4998771,
+                "longitude": 13.4369915
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Skalitzer Str. 60",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10997",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Skalitzer Str. 60",
+                    "10997 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493032662439",
+            "display_phone": "+49 30 32662439",
+            "distance": 4954.961124669038
+        },
+        {
+            "id": "4L6vbqMCeAQbHUyNRK5QWw",
+            "alias": "la-casa-buena-vista-berlin",
+            "name": "La Casa Buena Vista",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/2dClSntOZ2_txedzdC43xA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-casa-buena-vista-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 63,
+            "categories": [
+                {
+                    "alias": "cuban",
+                    "title": "Cuban"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                },
+                {
+                    "alias": "cajun",
+                    "title": "Cajun/Creole"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.55003,
+                "longitude": 13.46487
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Bizetstraße 136",
+                "address2": null,
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "13088",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Bizetstraße 136",
+                    "13088 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493092370685",
+            "display_phone": "+49 30 92370685",
+            "distance": 6671.559684134366
+        },
+        {
+            "id": "ooJMgzHAeg9XuPbKnkBVng",
+            "alias": "ushido-berlin-2",
+            "name": "Ushido",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yGlkOfRCPnN_d2tr0ml4mw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ushido-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 48,
+            "categories": [
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                },
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.5423217870669,
+                "longitude": 13.4161812346983
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Lychener Str. 18",
+                "address2": null,
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10437",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Lychener Str. 18",
+                    "10437 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493055242448",
+            "display_phone": "+49 30 55242448",
+            "distance": 3378.2181934121986
+        },
+        {
+            "id": "fYaEKJzXZvaJ0E9HrtEbTg",
+            "alias": "du-bonheur-berlin",
+            "name": "Du Bonheur",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/bExNdfgf3MeoocDU1yKcwg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/du-bonheur-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 49,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "bakeries",
+                    "title": "Bakeries"
+                },
+                {
+                    "alias": "delicatessen",
+                    "title": "Delicatessen"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.5362432,
+                "longitude": 13.3978679
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Brunnenstr. 39",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10115",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Brunnenstr. 39",
+                    "10115 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493056591955",
+            "display_phone": "+49 30 56591955",
+            "distance": 1987.9928244104124
+        },
+        {
+            "id": "uR7wsySeBtVySv9QO8_hgg",
+            "alias": "weingalerie-und-café-nö-berlin",
+            "name": "Weingalerie und Café NÖ!",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ZrqNsV6Bvvz-ThHrfPnDGg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/weingalerie-und-caf%C3%A9-n%C3%B6-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 131,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                },
+                {
+                    "alias": "flatbread",
+                    "title": "Flatbread"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.51327,
+                "longitude": 13.38625
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Glinkastr. 23",
+                "address2": null,
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Glinkastr. 23",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+49302010871",
+            "display_phone": "+49 30 2010871",
+            "distance": 1418.375690635572
+        },
+        {
+            "id": "3LHWNkukiVBztEXdMXUaLA",
+            "alias": "repke-spätzlerei-berlin",
+            "name": "Repke Spätzlerei",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/EfMnrgHkuUeYaosRZ7KgJg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/repke-sp%C3%A4tzlerei-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 79,
+            "categories": [
+                {
+                    "alias": "german",
+                    "title": "German"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.50421,
+                "longitude": 13.32008
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Bleibtreustr. 46",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10623",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Bleibtreustr. 46",
+                    "10623 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493088718672",
+            "display_phone": "+49 30 88718672",
+            "distance": 4386.819792136213
+        },
+        {
+            "id": "0oZ6GNvAPyItdGcrlSJrcw",
+            "alias": "asteria-berlin",
+            "name": "Asteria",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4Kpj6fvq4T6BRfylmFcFgQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/asteria-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 119,
+            "categories": [
+                {
+                    "alias": "greek",
+                    "title": "Greek"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.5414439100881,
+                "longitude": 13.4118138626218
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Schönhauser Allee 143",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10435",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Schönhauser Allee 143",
+                    "10435 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493040053571",
+            "display_phone": "+49 30 40053571",
+            "distance": 3083.6039432257235
+        },
+        {
+            "id": "MV2ZhPtmZQJ2WCVgzEA5XQ",
+            "alias": "zur-haxe-berlin-2",
+            "name": "Zur Haxe",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/GlfOUsNWnic7bLcnw3Igbw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/zur-haxe-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 82,
+            "categories": [
+                {
+                    "alias": "german",
+                    "title": "German"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.54477,
+                "longitude": 13.43699
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Erich-Weinert-Str. 128",
+                "address2": null,
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10409",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Erich-Weinert-Str. 128",
+                    "10409 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+49304216312",
+            "display_phone": "+49 30 4216312",
+            "distance": 4712.711882389639
+        },
+        {
+            "id": "ssTbFrl0YkJwb00HIMhW9w",
+            "alias": "schwiliko-berlin",
+            "name": "Schwiliko",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/VIhJnoDb1Sz-a6Am8q0cmw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/schwiliko-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 32,
+            "categories": [
+                {
+                    "alias": "georgian",
+                    "title": "Georgian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.49867,
+                "longitude": 13.44686
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Schlesische Str. 29",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10997",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Schlesische Str. 29",
+                    "10997 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493061623588",
+            "display_phone": "+49 30 61623588",
+            "distance": 5605.725963990573
+        },
+        {
+            "id": "lrADfCYffCllBbJHBgqiIw",
+            "alias": "spätzle-club-berlin",
+            "name": "Spätzle Club",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cj5EAKu5avp0raUDgnPTRg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sp%C3%A4tzle-club-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 50,
+            "categories": [
+                {
+                    "alias": "german",
+                    "title": "German"
+                },
+                {
+                    "alias": "swabian",
+                    "title": "Swabian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.51055,
+                "longitude": 13.40242
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Seydelstr. 2",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10117",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Seydelstr. 2",
+                    "10117 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493020143139",
+            "display_phone": "+49 30 20143139",
+            "distance": 2366.297283443498
+        },
+        {
+            "id": "K3g3Htcj3bTYR1rdWK6oDg",
+            "alias": "momiji-berlin",
+            "name": "Momiji",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/3_uFPiTkcyHyUnL-yp7UJw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/momiji-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 12,
+            "categories": [
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 52.50663,
+                "longitude": 13.32044
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Bleibtreustr. 52",
+                "address2": null,
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10623",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Bleibtreustr. 52",
+                    "10623 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493055286406",
+            "display_phone": "+49 30 55286406",
+            "distance": 4239.249644918006
+        },
+        {
+            "id": "CAoUMz4XJGvSVEccEOQ04A",
+            "alias": "pascarella-berlin-2",
+            "name": "Pascarella",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/J5mF4wDA1CGg3jvMFPA5nw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pascarella-berlin-2?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.5323,
+                "longitude": 13.38143
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Chauseestr. 30",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10115",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Chauseestr. 30",
+                    "10115 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+493031168580",
+            "display_phone": "+49 30 31168580",
+            "distance": 957.9719753896072
+        },
+        {
+            "id": "3p9lgQFMsVWPKKw3O1nRPA",
+            "alias": "layla-berlin",
+            "name": "Layla",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iWXOf2CG4VNri65P4u6EFw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/layla-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 9,
+            "categories": [
+                {
+                    "alias": "mideastern",
+                    "title": "Middle Eastern"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.50149,
+                "longitude": 13.38327
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Hallesche Str. 10",
+                "address2": "",
+                "address3": "",
+                "city": "Berlin",
+                "zip_code": "10963",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Hallesche Str. 10",
+                    "10963 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+4915122563654",
+            "display_phone": "+49 1512 2563654",
+            "distance": 2588.77652732829
+        },
+        {
+            "id": "0VBlZfPnfpWHoMRiSY_iiw",
+            "alias": "momos-berlin-3",
+            "name": "momos",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/gt_GUepg0F8_MqmdSrdbUA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/momos-berlin-3?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 12,
+            "categories": [
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.52758,
+                "longitude": 13.38715
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Chausseestr. 2",
+                "address2": "",
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10115",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Chausseestr. 2",
+                    "10115 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+491602688177",
+            "display_phone": "+49 160 2688177",
+            "distance": 838.1688030656022
+        },
+        {
+            "id": "HKWblNIz05tlm7tH0ROblw",
+            "alias": "nanum-berlin",
+            "name": "NaNum",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/RVF5_9Xc3DEVUm4swNx9QA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nanum-berlin?adjust_creative=ors6zRuF6OV8AsDVv84wmA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ors6zRuF6OV8AsDVv84wmA",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "korean",
+                    "title": "Korean"
+                },
+                {
+                    "alias": "themedcafes",
+                    "title": "Themed Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.5025789213273,
+                "longitude": 13.394095435339
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Lindenstr. 90",
+                "address2": "",
+                "address3": null,
+                "city": "Berlin",
+                "zip_code": "10969",
+                "country": "DE",
+                "state": "BE",
+                "display_address": [
+                    "Lindenstr. 90",
+                    "10969 Berlin",
+                    "Germany"
+                ]
+            },
+            "phone": "+491772084785",
+            "display_phone": "+49 177 2084785",
+            "distance": 2722.1495188242216
+        }
+    ],
+    "total": 7500,
+    "region": {
+        "center": {
+            "longitude": 13.3758544921875,
+            "latitude": 52.524398250121365
+        }
+    }
+}

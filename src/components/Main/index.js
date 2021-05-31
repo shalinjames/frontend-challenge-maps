@@ -24,14 +24,13 @@ class Main extends React.Component {
 			location: "Berlin, Germany",
 			term: "restaurants"
 		}
-		const urlParams = new URLSearchParams(query);
-		return SearchRestaurants(urlParams)
+		return SearchRestaurants(query)
 	}
 
 	render() {
 		return (
 			<main>
-				<Map />
+				<Map businesses={this.state.businesses} />
 				{this.state.businesses.map(business => <BusinessCard business={business} />)}
 			</main>
 		);

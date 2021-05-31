@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export const MAP_SETTINGS = {
     COORDS: {
@@ -7,35 +7,40 @@ export const MAP_SETTINGS = {
     INITIAL_ZOOM: 10
 }
 
-class Map extends React.Component {
+const Map = ({ businesses }) => {
 
-    mapsApiLoaded = null;
-    mapInstance = null;
+    const [mapInstance, setMapInstance] = useState(null);
 
-    componentDidMount() {
-        this.mapsApiLoaded = window.setTimeout(this.checkMapsApi.bind(this), 200);
-    }
-
-    checkMapsApi = () => {
+    useEffect(() => {
         if (window.google && window.google.maps) {
-            window.clearTimeout(this.mapsApiLoaded);
-            this.initMap();
+            initMap();
         }
-    }
+    }, [window.google]);
 
-    initMap = () => {
+    useEffect(() => {
+        businesses.forEach(business => {
+            const latLng = new window.google.maps.LatLng(business.coordinates.latitude, business.coordinates.longitude)
+            new window.google.maps.Marker({
+                position: latLng,
+                map: mapInstance,
+                title: business.name,
+            });
+        })
+    }, [businesses])
+
+
+    const initMap = () => {
         const mapEl = document.getElementById('places-map');
-        if (mapEl && !this.mapInstance) {
-            this.mapInstance = new window.google.maps.Map(mapEl, {
+        if (mapEl && !mapInstance) {
+            setMapInstance(new window.google.maps.Map(mapEl, {
                 center: MAP_SETTINGS.COORDS['Europe/Berlin'],
                 zoom: MAP_SETTINGS.INITIAL_ZOOM
-            });
+            }));
         }
     }
 
-    render() {
-        return <div id='places-map' className='places-map'></div>
-    }
+    return <div id='places-map' className='places-map'></div>
+
 
 }
 

@@ -1,5 +1,5 @@
-import { SearchRestaurants } from "./yelp";
-import YelpSearchResponse from "./__test__/yelp.search.response.json"
+import { SearchRestaurants } from "../yelp";
+import YelpSearchResponse from "./yelp.search.response.json"
 
 describe("Yelp API", () => {
     global.fetch = jest.fn(() =>

@@ -1,4 +1,5 @@
-export const SearchRestaurants = async (urlParams) => {
+export const SearchRestaurants = async (query) => {
+    const urlParams = new URLSearchParams(query);
     const response = await fetch(`/-/search?${urlParams}`);
     const body = await response.json();
     if (response.status !== 200) {

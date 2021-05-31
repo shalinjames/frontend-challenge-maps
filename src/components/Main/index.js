@@ -3,25 +3,18 @@ import React from 'react';
 import './Main.css';
 
 import { SearchRestaurants } from '../../webapi/yelp'
+import Map from '../Map/Map';
 
-const COORDS = {
-	'Europe/Berlin': { lat: 52.518611, lng: 13.408333 }
-}
 
 class Main extends React.Component {
 	state = {
 		businesses: []
 	}
 
-	mapsApiLoaded = null;
-	mapInstance = null;
-
 	componentDidMount() {
 		this.fetchRestaurants()
 			.then(res => this.setState({ businesses: res || [] }))
 			.catch(err => console.log(err));
-
-		this.mapsApiLoaded = window.setTimeout(this.checkMapsApi.bind(this), 200);
 	}
 
 	fetchRestaurants = async () => {
@@ -34,27 +27,10 @@ class Main extends React.Component {
 		return SearchRestaurants(urlParams)
 	}
 
-	checkMapsApi() {
-		if (window.google && window.google.maps) {
-			window.clearTimeout(this.mapsApiLoaded);
-			this.initMap();
-		}
-	}
-
-	initMap() {
-		const mapEl = document.getElementById('places-map');
-		if (mapEl && !this.mapInstance) {
-			this.mapInstance = new window.google.maps.Map(mapEl, {
-				center: COORDS['Europe/Berlin'],
-				zoom: 8
-			});
-		}
-	}
-
 	render() {
 		return (
 			<main>
-				<div id='places-map' className='places-map'></div>
+				<Map />
 				{this.state.businesses.map(business => {
 					return (
 						<div className="card" key={business.id}>

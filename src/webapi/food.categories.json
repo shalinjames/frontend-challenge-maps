@@ -1,14 +1,14 @@
 [
     {
-        "value": "Sushi",
-        "displayTitle": "Sushi"
+        "value": "Burger",
+        "displayTitle": "Burger"
     },
     {
         "value": "Pizza",
         "displayTitle": "Pizza"
     },
     {
-        "value": "Burger",
-        "displayTitle": "Burger"
+        "value": "Sushi",
+        "displayTitle": "Sushi"
     }
 ]

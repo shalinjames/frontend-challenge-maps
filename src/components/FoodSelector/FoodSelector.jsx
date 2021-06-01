@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import { BusinessListingContext } from "../../contexts/BusinessListing";
 import { Select } from "../UI";
 
-const FoodSelector = ({ useFoodCategories }) => {
+const FoodSelector = () => {
     const { actions } = useContext(BusinessListingContext);
-    const foodCategories = useFoodCategories();
+    const foodCategories = actions.useFetchFoodCategories();
 
     if (foodCategories === null) {
         return "Loading...";

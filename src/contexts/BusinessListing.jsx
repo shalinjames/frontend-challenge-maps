@@ -1,5 +1,6 @@
-import React, { useEffect, useState, useCallback } from "react";
-import { SearchRestaurants } from "../webapi/yelp"
+import React, { useState } from "react";
+import useFetchFoodCategories from "../hooks/useFetchFoodCategories";
+import useSearchBusinesses from "../hooks/useSearchBusinesses";
 
 export const BusinessListingContext = React.createContext({
     businesses: [],
@@ -7,31 +8,11 @@ export const BusinessListingContext = React.createContext({
     foods: []
 });
 
-const query = {
-    limit: 10,
-    location: "Berlin, Germany",
-    term: "restaurants"
-};
-
-
-
 export const BusinessListingProvider = ({ children }) => {
 
-    const [businesses, setBusinesses] = useState([]);
-    const [foodType, setFoodType] = useState("Sushi");
-    const actions = { setFoodType };
-
-    const getRestaurantsByQuery = useCallback(async () => {
-        const businesses = await SearchRestaurants({ ...query, term: foodType });
-        setBusinesses(businesses);
-    }, [foodType]);
-
-    useEffect(() => {
-        if (foodType) {
-            getRestaurantsByQuery();
-        }
-    }, [getRestaurantsByQuery, foodType]);
-
+    const [foodType, setFoodType] = useState("Burger");
+    const businesses = useSearchBusinesses(foodType);
+    const actions = { setFoodType, useFetchFoodCategories };
 
     return <BusinessListingContext.Provider value={{ businesses, actions }}>
         {children}

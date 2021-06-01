@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FoodCategories } from "../webapi/yelp"
 
-const useFoodCategories = () => {
+const useFetchFoodCategories = () => {
     const [foodCategories, setFoodCategories] = useState(null);
 
     const getFoodCategories = async () => {
@@ -16,4 +16,4 @@ const useFoodCategories = () => {
     return foodCategories;
 }
 
-export default useFoodCategories;
+export default useFetchFoodCategories;

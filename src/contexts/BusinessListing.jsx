@@ -3,7 +3,8 @@ import { SearchRestaurants } from "../webapi/yelp"
 
 export const BusinessListingContext = React.createContext({
     businesses: [],
-    actions: {}
+    actions: {},
+    foods: []
 });
 
 const query = {

@@ -7,3 +7,8 @@ export const SearchRestaurants = async (query) => {
     }
     return body.businesses;
 }
+
+
+export const FoodCategories = () => {
+    return import("./food.categories.json");
+}

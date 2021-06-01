@@ -2,16 +2,15 @@ import React, { useContext } from "react";
 import { BusinessListingContext } from "../../contexts/BusinessListing";
 import { Select } from "../UI";
 
-const FoodSelector = () => {
+const FoodSelector = ({ useFoodCategories }) => {
     const { actions } = useContext(BusinessListingContext);
-    return <Select options={[{
-        value: "Sushi",
-        text: "Sushi"
-    },
-    {
-        value: "Pizza",
-        text: "Pizza"
-    }]}
+    const foodCategories = useFoodCategories();
+
+    if (foodCategories === null) {
+        return "Loading...";
+    }
+
+    return <Select options={foodCategories}
         handleChange={actions.setFoodType}
     />
 }

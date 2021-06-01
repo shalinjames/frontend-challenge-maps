@@ -4,6 +4,7 @@ import { BusinessListingProvider } from "../../contexts/BusinessListing";
 import Map from '../Map';
 import BusinessCards from "../BusinessCard/BusinessCards";
 import FoodSelector from '../FoodSelector/FoodSelector';
+import useFoodCategories from '../../hooks/useFoodCategories';
 
 const Main = () => {
 
@@ -11,7 +12,7 @@ const Main = () => {
 		<main>
 			<BusinessListingProvider>
 				<Map />
-				<FoodSelector />
+				<FoodSelector useFoodCategories={useFoodCategories} />
 				<BusinessCards />
 			</BusinessListingProvider>
 

@@ -1,5 +1,5 @@
 import { MAP_SETTINGS, CreateMap, CreateNewMarkers } from "../MapVM";
-import BusinessListingsJson from "./business.list.json"
+import BusinessListingsJson from "../../__test__/business.list.json"
 
 
 describe("MapViewModel Test", () => {

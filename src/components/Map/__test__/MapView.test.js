@@ -1,7 +1,7 @@
 import React from "react";
 import { render, act, screen } from "@testing-library/react";
 import MapView from "../MapView";
-import BusinessListingsJson from "./business.list.json"
+import BusinessListingsJson from "../../__test__/business.list.json";
 
 
 describe("<MapView />", () => {

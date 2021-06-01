@@ -1,26 +1,15 @@
 import React from "react";
+import { Card, CardHeader, Address } from "../UI";
 
 const BusinessCard = ({ business }) => {
-
-    const contactDetails = (business) => {
-        if (business.location && business.location.display_address) {
-            return <p>
-                {business.location.display_address[0]}
-                <br />
-                {business.location.display_address[1]}
-            </p>
+    return <Card imageUrl={business.image_url} title={business.name}>
+        <CardHeader title={business.name} url={business.url} />
+        {business.location && business.location.display_address ? <Address
+            street={business.location.display_address[0]}
+            locationPinCode={business.location.display_address[1]}
+            phone={business.display_phone} /> : ""
         }
-    }
-
-
-    return <div className="card" key={business.id}>
-        <img src={business.image_url} alt={business.name} />
-        <div className="container">
-            <h4><a href={business.url}>{business.name}</a></h4>
-            {contactDetails(business)}
-            <p>{business.display_phone}</p>
-        </div>
-    </div>
+    </Card>
 }
 
 export default BusinessCard;

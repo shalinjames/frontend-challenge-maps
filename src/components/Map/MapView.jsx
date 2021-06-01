@@ -1,23 +1,29 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const MapView = ({ businesses, actions }) => {
-    const { CreateMap, CreateMarker } = actions
+    const { CreateMap, CreateNewMarkers } = actions
     const [mapInstance, setMapInstance] = useState(null);
     const mapElRef = useRef(null);
+    const [markers, setMarkers] = useState([]);
+
+
+    const clearMap = () => markers.forEach(marker => marker.setMap(null));
 
     useEffect(() => {
-        if (mapElRef && !mapInstance) {
+        if (!mapInstance) {
             setMapInstance(CreateMap(mapElRef.current));
         }
         return () => {
             setMapInstance(null);
+            setMarkers(null);
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     useEffect(() => {
         if (mapInstance) {
-            businesses.forEach(business => CreateMarker(mapInstance, business.name, business.coordinates))
+            clearMap();
+            setMarkers(CreateNewMarkers(mapInstance, businesses));
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [businesses, mapInstance])

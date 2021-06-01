@@ -1,4 +1,5 @@
-import { MAP_SETTINGS, CreateMap, CreateMarker } from "../MapVM";
+import { MAP_SETTINGS, CreateMap, CreateNewMarkers } from "../MapVM";
+import BusinessListingsJson from "./business.list.json"
 
 
 describe("MapViewModel Test", () => {
@@ -29,14 +30,20 @@ describe("MapViewModel Test", () => {
 
     test("should call the  google map Marker class for businesses", async () => {
 
-        CreateMarker(new global.google.maps.Map(), "TestTitle", { latitude: 10, longitude: 10 });
+        const markers = CreateNewMarkers(new global.google.maps.Map(), BusinessListingsJson);
 
-        expect(global.google.maps.LatLng).toHaveBeenLastCalledWith(10, 10);
+        expect(markers.length).toEqual(BusinessListingsJson.length);
 
-        expect(global.google.maps.Marker).toHaveBeenCalledWith({
-            "map": expect.anything(),
-            "position": expect.anything(),
-            "title": "TestTitle",
-        });
+        BusinessListingsJson.forEach((business, index) => {
+            const { latitude, longitude } = business.coordinates;
+            expect(global.google.maps.LatLng).toHaveBeenNthCalledWith(index + 1, latitude, longitude);
+
+            expect(global.google.maps.Marker).toHaveBeenNthCalledWith(index + 1, {
+                "map": expect.anything(),
+                "position": expect.anything(),
+                "title": business.name,
+            });
+        })
+
     });
 });

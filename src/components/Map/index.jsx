@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import MapView from "./MapView";
-import { CreateMap, CreateMarker } from "./MapVM";
+import { CreateMap, CreateNewMarkers } from "./MapVM";
+import { BusinessListingContext } from "../../contexts/BusinessListing";
 
 
-const Map = ({ businesses }) => {
-    return <MapView
-        businesses={businesses}
-        actions={{ CreateMarker, CreateMap }}
+const Map = () => {
+    const { businesses } = useContext(BusinessListingContext);
+
+    return <MapView businesses={businesses} actions={{ CreateNewMarkers, CreateMap }}
     />
 }
 

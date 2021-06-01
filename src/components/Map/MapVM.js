@@ -13,12 +13,21 @@ export const CreateMap = (mapEl) => {
     });
 }
 
-export const CreateMarker = (map, title, coordinates) => {
+const createMarker = (map, title, coordinates) => {
     const { latitude, longitude } = coordinates;
     const latLng = new window.google.maps.LatLng(latitude, longitude)
-    new window.google.maps.Marker({
+    return new window.google.maps.Marker({
         position: latLng,
         map,
         title,
     });
+}
+
+export const CreateNewMarkers = (map, businesses) => {
+    const newMarkers = [];
+    businesses.forEach(business => {
+        const newMarker = createMarker(map, business.name, business.coordinates);
+        newMarkers.push(newMarker);
+    });
+    return newMarkers;
 }

@@ -6,11 +6,10 @@ import FoodCategoriesList from "../../webapi/food.categories.json";
 
 describe("<FoodSelector />", () => {
 
-    let useFetchFoodCategories, setFoodType;
-    const renderComponent = (mockResponse) => {
-        useFetchFoodCategories = jest.fn().mockReturnValue(mockResponse);
+    let setFoodType;
+    const renderComponent = (foodCategories) => {
         setFoodType = jest.fn();
-        render(<BusinessListingContext.Provider value={{ actions: { useFetchFoodCategories, setFoodType } }}>
+        render(<BusinessListingContext.Provider value={{ actions: { setFoodType }, foodCategories }}>
             <FoodSelector />
         </BusinessListingContext.Provider>)
     };
@@ -18,11 +17,6 @@ describe("<FoodSelector />", () => {
     test("should not render anything if there is no value provided", () => {
         renderComponent(null);
         expect(screen.queryByRole("combobox")).not.toBeInTheDocument();
-    });
-
-    test("should call the useFetchFoodCategories hook", () => {
-        renderComponent(FoodCategoriesList);
-        expect(useFetchFoodCategories).toHaveBeenCalled();
     });
 
     test("should display the options provided by the hook", () => {

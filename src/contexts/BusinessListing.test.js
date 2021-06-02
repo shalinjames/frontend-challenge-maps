@@ -36,8 +36,7 @@ describe("BusinessListing Context", () => {
     }];
 
     const TestComponent = () => {
-        const { businesses, actions } = useContext(BusinessListingContext);
-        const foodCategories = actions.useFetchFoodCategories();
+        const { businesses, actions, foodCategories } = useContext(BusinessListingContext);
 
         return <div>
             <input type="text" onChange={(e) => actions.setFoodType(e.target.value)} data-testid="food-type" name="food-type" />
@@ -67,7 +66,6 @@ describe("BusinessListing Context", () => {
             });
 
             expect(useSearchBusinessesSpy).toHaveBeenCalledWith("Burger");
-            expect(useSearchBusinessesSpy).toHaveBeenCalledTimes(1);
         });
 
         test("Should show the businesses provided by useSearchBusinesses", async () => {

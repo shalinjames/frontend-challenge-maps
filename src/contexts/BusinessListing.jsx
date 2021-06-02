@@ -5,16 +5,17 @@ import useSearchBusinesses from "../hooks/useSearchBusinesses";
 export const BusinessListingContext = React.createContext({
     businesses: [],
     actions: {},
-    foods: []
+    foodCategories: []
 });
 
 export const BusinessListingProvider = ({ children }) => {
 
     const [foodType, setFoodType] = useState("Burger");
     const businesses = useSearchBusinesses(foodType);
-    const actions = { setFoodType, useFetchFoodCategories };
+    const foodCategories = useFetchFoodCategories();
+    const actions = { setFoodType };
 
-    return <BusinessListingContext.Provider value={{ businesses, actions }}>
+    return <BusinessListingContext.Provider value={{ businesses, actions, foodCategories }}>
         {children}
     </BusinessListingContext.Provider>
 }

@@ -3,16 +3,13 @@ import { BusinessListingContext } from "../../contexts/BusinessListing";
 import { Select } from "../UI";
 
 const FoodSelector = () => {
-    const { actions } = useContext(BusinessListingContext);
-    const foodCategories = actions.useFetchFoodCategories();
+    const { actions, foodCategories } = useContext(BusinessListingContext);
 
     if (foodCategories === null) {
         return "Loading...";
     }
 
-    return <Select options={foodCategories}
-        handleChange={actions.setFoodType}
-    />
+    return <Select options={foodCategories} handleChange={actions.setFoodType} />
 }
 
 export default FoodSelector;

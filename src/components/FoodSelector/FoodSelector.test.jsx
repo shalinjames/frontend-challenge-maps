@@ -1,15 +1,16 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent, act } from "@testing-library/react";
 import FoodSelector from "./FoodSelector";
 import { BusinessListingContext } from "../../contexts/BusinessListing";
 import FoodCategoriesList from "../../webapi/food.categories.json";
 
 describe("<FoodSelector />", () => {
 
-    let useFetchFoodCategories;
+    let useFetchFoodCategories, setFoodType;
     const renderComponent = (mockResponse) => {
         useFetchFoodCategories = jest.fn().mockReturnValue(mockResponse);
-        render(<BusinessListingContext.Provider value={{ actions: { useFetchFoodCategories } }}>
+        setFoodType = jest.fn();
+        render(<BusinessListingContext.Provider value={{ actions: { useFetchFoodCategories, setFoodType } }}>
             <FoodSelector />
         </BusinessListingContext.Provider>)
     };
@@ -31,5 +32,21 @@ describe("<FoodSelector />", () => {
         expect(comboBox.children.length).toEqual(3);
         const options = [...comboBox.children].map(option => option.textContent);
         expect(options).toEqual(["Burger", "Pizza", "Sushi"]);
+    });
+
+    test("should set the foodType on selecting a food category", () => {
+        renderComponent(FoodCategoriesList);
+        const foodType = "Pizza"
+        const comboBox = screen.queryByRole("combobox");
+        act(() => {
+            fireEvent.change(comboBox, {
+                target: {
+                    value: foodType
+                }
+
+            });
+        });
+
+        expect(setFoodType).toHaveBeenLastCalledWith(foodType);
     });
 })

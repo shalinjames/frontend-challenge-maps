@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { SearchRestaurants } from "../webapi/yelp"
+import { SearchBusinesses } from "../webapi/yelp"
 
 const useSearchBusinesses = (foodType) => {
 
@@ -13,7 +13,7 @@ const useSearchBusinesses = (foodType) => {
     const [businesses, setBusinesses] = useState(null);
 
     const getRestaurantsByQuery = async () => {
-        const businesses = await SearchRestaurants({ ...query, term: foodType });
+        const businesses = await SearchBusinesses({ ...query, term: foodType });
         setBusinesses(businesses);
     };
 

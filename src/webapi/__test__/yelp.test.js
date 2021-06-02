@@ -1,4 +1,4 @@
-import { SearchRestaurants } from "../yelp";
+import { SearchBusinesses } from "../yelp";
 import YelpSearchResponse from "./yelp.search.response.json"
 
 describe("Yelp API", () => {
@@ -14,7 +14,7 @@ describe("Yelp API", () => {
     });
 
     it("Should get the search result from the search api", async () => {
-        const results = await SearchRestaurants("sushi");
+        const results = await SearchBusinesses("sushi");
         expect(results).toBe(YelpSearchResponse.businesses);
     });
 
@@ -26,7 +26,7 @@ describe("Yelp API", () => {
                 status: 500,
             })
         );
-        return SearchRestaurants("sushi").catch(e => expect(e).toEqual("Wrong input parameters"));
+        return SearchBusinesses("sushi").catch(e => expect(e).toEqual("Wrong input parameters"));
     });
 
 });

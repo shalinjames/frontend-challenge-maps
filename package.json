@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node server"
+    "server": "node server",
+    "test:coverage": "react-scripts test --coverage --watchAll=false"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,5 +39,12 @@
   "proxy": "http://localhost:5000/",
   "devDependencies": {
     "@types/jest": "^26.0.23"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!src/**/index.{js,jsx}"
+    ]
   }
 }
